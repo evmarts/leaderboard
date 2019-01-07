@@ -1,6 +1,4 @@
 import React, { Component } from "react";
-import "../App.css";
-import "../Leaderboard.css";
 import Leaderboard from "./Leaderboard";
 import Prizes from "./Prizes";
 
