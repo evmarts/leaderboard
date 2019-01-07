@@ -13,8 +13,7 @@ export default class Leaderboard extends React.Component {
 
   async componentDidMount() {
     const response = await axios.get(
-      // "http://esdc-jobs-api.herokuapp.com/api/jobs"
-      "http://localhost:4000/api/leaderboard"
+      "http://secure-anchorage-54009.herokuapp.com/api/leaderboard"
     );
     await this.setState({ response: response });
   }
@@ -30,7 +29,7 @@ export default class Leaderboard extends React.Component {
               return (
                 <tr key={key}>
                   <td style={{ fontWeight: "bold" }}>{item.position}</td>
-                  <td>{item.points}</td> 
+                  <td>{item.points}</td>
                   <td>{item.username}</td>
                 </tr>
               );
