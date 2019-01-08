@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import Leaderboard from "./Leaderboard";
 import Prizes from "./Prizes";
+import './App.css';
 
 class App extends Component {
   render() {
