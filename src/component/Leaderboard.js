@@ -1,6 +1,9 @@
 import React from "react";
 import axios from "axios";
 import Countdown from "./Countdown";
+import Table from "./Table";
+import { BootstrapTable, TableHeaderColumn } from "react-bootstrap-table";
+import "../../node_modules/react-bootstrap-table/dist/react-bootstrap-table-all.min.css";
 
 export default class Leaderboard extends React.Component {
   constructor(props) {
@@ -21,20 +24,7 @@ export default class Leaderboard extends React.Component {
     console.log(this.state.response);
     return this.state.response ? (
       <div align="center">
-        <h2>Leaderboard</h2>
-        <table>
-          <tbody>
-            {this.state.response.data.map((item, key) => {
-              return (
-                <tr key={key}>
-                  <td style={{ fontWeight: "bold" }}>{item.position}</td>
-                  <td>{item.points}</td>
-                  <td>{item.username}</td>
-                </tr>
-              );
-            })}
-          </tbody>
-        </table>
+        <Table data={this.state.response.data} />
         <br />
         <Countdown />
       </div>
