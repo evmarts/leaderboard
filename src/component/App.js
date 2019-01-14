@@ -21,7 +21,7 @@ class App extends Component {
         </header>
         <Countdown />
         <Leaderboard />
-        <Prizes />
+        <Prizes/>
       </div>
     );
   }

@@ -1,7 +1,6 @@
 import React, { Component } from "react";
 import DataTable from "react-data-table-component";
 
-// const data = [{ title: 'Conan the Barbarian', year: '1982' }];
 const columns = [
   {
     name: "Username",
@@ -28,7 +27,7 @@ class Table extends Component {
   render() {
     return (
       <div>
-        <h3>Leaderboard</h3>
+        <h1>Leaderboard 📶</h1>
         <DataTable columns={columns} data={this.props.data} />
       </div>
     );

@@ -22,13 +22,12 @@ export default class Leaderboard extends React.Component {
   Rules = () => {
     return (
       <div>
-        <h4>Rules</h4>
+        <h2>Rules ✅</h2>
         <div align="left">
           <li>1️⃣ Like for +1 point</li>
           <li>2️⃣ Each friend you comment is +2 points</li>
-          <li>
-            1️⃣0️⃣ Add creator code "FORFORTSAKES" as your Support A Creator
-          </li>
+          <li>1️⃣0️⃣ Add me as your Support a Creator for +10 points</li>
+          <br />
           <p>💰 Winner gets a $20 gift card!</p>
           <p>🤜🤛 On the event of a tie, the winner is randomly chosen</p>
         </div>
