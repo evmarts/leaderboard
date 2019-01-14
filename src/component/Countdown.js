@@ -4,14 +4,17 @@ import Countdown from "react-countdown-now";
 export default class Leaderboard extends React.Component {
   constructor(props) {
     super(props);
-    this.state = {
-    };
+    this.state = {};
   }
   render() {
     return (
       <div>
-        <label style={{ fontWeight: "bold" }}>Contest ends in: </label>
-        <Countdown date={"Sat, 19 Jan 2019 23:59:59"} />
+        <h2>Contest ends in: </h2>
+        <div style={{ fontSize: 150 }}>
+          <Countdown
+            date={"Sat, 19 Jan 2019 23:59:59"}
+          />
+        </div>
       </div>
     );
   }

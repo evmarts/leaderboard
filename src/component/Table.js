@@ -28,7 +28,7 @@ class Table extends Component {
   render() {
     return (
       <div>
-        <h2>Leaderboard</h2>
+        <h3>Leaderboard</h3>
         <DataTable columns={columns} data={this.props.data} />
       </div>
     );

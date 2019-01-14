@@ -1,14 +1,16 @@
 import React, { Component } from "react";
 import Leaderboard from "./Leaderboard";
 import Prizes from "./Prizes";
-import './App.css';
+import Countdown from "./Countdown";
+import "./App.css";
 
 class App extends Component {
   render() {
     return (
       <div className="App">
-        <header className="App-header">
-          <h3>🍀🆂🆄🅿🅿🅾🆁🆃🅴🆁 🅲🅾🅽🆃🅴🆂🆃</h3>
+        <header className="App-header" style={{ backgroundColor: "#70c1ec" }}>
+          <h1>🍀🅂🅄🄿🄿🄾🅁🅃🄴🅁 🄲🄾🄽🅃🄴🅂🅃</h1>
+          <p align="center">hosted by:</p>
           <a
             className="App-link"
             href="https://instagram.com/forfortsakes"
@@ -18,6 +20,7 @@ class App extends Component {
             @forfortsakes
           </a>
         </header>
+        <Countdown />
         <Leaderboard />
         <Prizes />
       </div>

@@ -1,6 +1,5 @@
 import React from "react";
 import axios from "axios";
-import Countdown from "./Countdown";
 import Table from "./Table";
 import { BootstrapTable, TableHeaderColumn } from "react-bootstrap-table";
 import "../../node_modules/react-bootstrap-table/dist/react-bootstrap-table-all.min.css";
@@ -21,12 +20,10 @@ export default class Leaderboard extends React.Component {
   }
 
   render() {
-    console.log(this.state.response);
     return this.state.response ? (
-      <div align="center">
+      <div style={{ marginLeft: "10%", marginRight: "10%" }} align="center">
         <Table data={this.state.response.data} />
         <br />
-        <Countdown />
       </div>
     ) : (
       <div />

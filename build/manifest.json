@@ -1,6 +1,6 @@
 {
-  "short_name": "Leaderboard",
-  "name": "forfortsakes leaderboard",
+  "short_name": "React App",
+  "name": "Create React App Sample",
   "icons": [
     {
       "src": "favicon.ico",
