@@ -8,17 +8,16 @@ class App extends Component {
   render() {
     return (
       <div className="App">
+        <a
+          className="App-link"
+          href="https://instagram.com/forfortsakes"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          @forfortsakes
+        </a>
         <header className="App-header" style={{ backgroundColor: "#70c1ec" }}>
           <h1>🍀🅂🅄🄿🄿🄾🅁🅃🄴🅁 🄲🄾🄽🅃🄴🅂🅃</h1>
-          <p align="center">hosted by:</p>
-          <a
-            className="App-link"
-            href="https://instagram.com/forfortsakes"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            @forfortsakes
-          </a>
         </header>
         <Countdown />
         <Leaderboard />
