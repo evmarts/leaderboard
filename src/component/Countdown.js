@@ -10,7 +10,7 @@ export default class Leaderboard extends React.Component {
     return (
       <div>
         <h2>Contest ends in: </h2>
-        <div style={{ fontSize: 150 }}>
+        <div style={{ fontSize: 70 }}>
           <Countdown
             date={"Sat, 19 Jan 2019 23:59:59"}
           />
