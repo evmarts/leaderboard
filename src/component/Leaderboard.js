@@ -2,6 +2,7 @@ import React from "react";
 import axios from "axios";
 import Table from "./Table";
 import { BootstrapTable, TableHeaderColumn } from "react-bootstrap-table";
+import ReactLoading from "react-loading";
 import "../../node_modules/react-bootstrap-table/dist/react-bootstrap-table-all.min.css";
 
 export default class Leaderboard extends React.Component {
@@ -47,7 +48,12 @@ export default class Leaderboard extends React.Component {
         </div>
       </div>
     ) : (
-      <div />
+      <div style={{ marginLeft: "20%", marginRight: "20%" }}>
+        <this.Rules />
+        <div align="center">
+          <ReactLoading type={"spin"} color={"#70c1ec"} height={50} width={50} />
+        </div>
+      </div>
     );
   }
 }
