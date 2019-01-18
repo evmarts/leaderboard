@@ -12,6 +12,11 @@ const columns = [
     sortable: true
   },
   {
+    name: "Support A Creator",
+    selector: "support_a_creator",
+    sortable: true
+  },
+  {
     name: "Likes",
     selector: "likes",
     sortable: true
@@ -20,7 +25,7 @@ const columns = [
     name: "Users Tagged",
     selector: "users_tagged",
     sortable: true
-  }
+  },
 ];
 
 class Table extends Component {
