@@ -1,7 +1,6 @@
 import React from "react";
 import axios from "axios";
 import Table from "./Table";
-import { BootstrapTable, TableHeaderColumn } from "react-bootstrap-table";
 import ReactLoading from "react-loading";
 import "../../node_modules/react-bootstrap-table/dist/react-bootstrap-table-all.min.css";
 
