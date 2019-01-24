@@ -8,7 +8,8 @@ export default class Leaderboard extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      points: []
+      points: [],
+      rules: false
     };
   }
 
@@ -38,9 +39,21 @@ export default class Leaderboard extends React.Component {
   render() {
     return this.state.response ? (
       <div>
-        <div style={{ marginLeft: "20%", marginRight: "20%" }}>
-          <this.Rules />
-        </div>
+        {this.state.rules ? (
+          <div>
+            <div style={{ marginLeft: "20%", marginRight: "20%" }}>
+              <this.Rules />
+            </div>
+          </div>
+        ) : (
+          <button
+            onClick={() => {
+              this.setState({ rules: true });
+            }}
+          >
+            show rules
+          </button>
+        )}
         <div style={{ marginLeft: "10%", marginRight: "10%" }} align="center">
           <Table data={this.state.response.data} />
           <br />
@@ -50,7 +63,12 @@ export default class Leaderboard extends React.Component {
       <div style={{ marginLeft: "20%", marginRight: "20%" }}>
         <this.Rules />
         <div align="center">
-          <ReactLoading type={"spin"} color={"#70c1ec"} height={50} width={50} />
+          <ReactLoading
+            type={"spin"}
+            color={"#70c1ec"}
+            height={50}
+            width={50}
+          />
         </div>
       </div>
     );
