@@ -12,17 +12,17 @@ const columns = [
     sortable: true
   },
   {
-    name: "Support Points",
+    name: "Support",
     selector: "is_supporter",
     sortable: true
   },
   {
-    name: "Likes Points",
+    name: "Likes",
     selector: "likes",
     sortable: true
   },
   {
-    name: "Tag Points",
+    name: "Tags",
     selector: "users_tagged",
     sortable: true
   }
