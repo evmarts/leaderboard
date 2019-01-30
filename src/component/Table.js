@@ -7,25 +7,25 @@ const columns = [
     selector: "username"
   },
   {
-    name: "Points",
+    name: "Total Points",
     selector: "points",
     sortable: true
   },
   {
-    name: "Support A Creator",
-    selector: "support_a_creator",
+    name: "Support Points",
+    selector: "is_supporter",
     sortable: true
   },
   {
-    name: "Likes",
+    name: "Likes Points",
     selector: "likes",
     sortable: true
   },
   {
-    name: "Users Tagged",
+    name: "Tag Points",
     selector: "users_tagged",
     sortable: true
-  },
+  }
 ];
 
 class Table extends Component {
