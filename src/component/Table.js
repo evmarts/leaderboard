@@ -32,8 +32,11 @@ class Table extends Component {
   render() {
     return (
       <div>
-        <h1>Leaderboard 📶</h1>
-        <DataTable columns={columns} data={this.props.data} />
+        <DataTable
+          columns={columns}
+          data={this.props.data}
+          pagination={true}
+        />
       </div>
     );
   }

@@ -8,16 +8,12 @@ export default class Prizes extends React.Component {
   render() {
     return (
       <div style={{ marginLeft: "10%", marginRight: "10%" }}>
-        <h3>Prizes:</h3>
-        <div align="left">
-          <a href="https://www.playstation.com/en-us/explore/playstationnetwork/psn-cards/">
-            PLAYSTATION®STORE Cash Cards
-          </a>
-          <br />
-          <a href="https://www.microsoft.com/en-ca/p/xbox-gift-card-digital-code/CFQ7TTC0K56J/0003?icid=XboxCat-Nav_5-GiftCard-081018&activetab=pivot%3aoverviewtab">
-            Xbox Digital Gift Card
-          </a>
+        <h3> 🎁 𝙂𝙞𝙫𝙚𝙖𝙬𝙖𝙮 𝙋𝙧𝙞𝙯𝙚𝙨</h3>
+        <div>
+          The winner of the contest will be mailed a $20 giftcard on the console
+          of their choice.
         </div>
+        <br />
       </div>
     );
   }
