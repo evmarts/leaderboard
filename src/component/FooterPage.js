@@ -10,21 +10,19 @@ class FooterPage extends React.Component {
         className="font-small pt-4 mt-4"
       >
         <Container fluid className="text-center text-md-left">
-          <Row>
-            <Col md="6">
+            <Col>
               <ul>
                 <li className="list-unstyled">
                   <p>Contact me with a DM:</p>
                   <a href="http://instagram/forfortsakes">@forforsakes</a>
                 </li>
               </ul>
-              <div>
-                Developed with 🍕by{" "}
-                <a href="https://github.com/evmarts"> evmarts </a>
-              </div>
             </Col>
-          </Row>
         </Container>
+        <div>
+          Developed with 🍕by{" "}
+          <a href="https://github.com/evmarts"> evmarts </a>
+        </div>
       </Footer>
     );
   }

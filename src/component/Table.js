@@ -25,18 +25,20 @@ const columns = [
     name: "Tags",
     selector: "users_tagged",
     sortable: true
-  }
+  },
+  {
+    name: "Early Comments",
+    selector: "early_comments",
+    sortable: true
+  },
+  { name: "Chance to Win (in %)", selector: "chance", sortable: true }
 ];
 
 class Table extends Component {
   render() {
     return (
       <div>
-        <DataTable
-          columns={columns}
-          data={this.props.data}
-          pagination={true}
-        />
+        <DataTable columns={columns} data={this.props.data} pagination={true} />
       </div>
     );
   }
