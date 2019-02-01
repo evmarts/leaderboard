@@ -19,11 +19,11 @@ The architecture of the system consists of four main entities:
 3. **Postgres database** is where we keep all the data for the leaderboard. It is also hosted on Heroku. 
 4. **leaderbaord-app** is the front-end of the system (this repo). See the *Example* section below for what it looks like. It is hosted on Surge.
 
-<img src="./figs/leaderboard-arch.png" width="512px" alt="">
+<img src="./figs/leaderboard-arch.png" width="1024px" alt="">
 
 ## Examples
 
 The following is an example of a contest held on one of my Instagram accounts:
 
-<img src="./figs/leaderboard.png" width="512px" alt="">
+<img src="./figs/leaderboard.png" width="1024px" alt="">
 
