@@ -4,7 +4,8 @@ import DataTable from "react-data-table-component";
 const columns = [
   {
     name: "Username",
-    selector: "username"
+    selector: "username",
+    width: "200px"
   },
   {
     name: "Total Points",
@@ -14,24 +15,27 @@ const columns = [
   {
     name: "Support",
     selector: "is_supporter",
-    sortable: true
+    sortable: true,
+    width: "75px"
   },
   {
     name: "Likes",
     selector: "likes",
-    sortable: true
+    sortable: true,
+    width: "75px"
   },
   {
     name: "Tags",
     selector: "users_tagged",
-    sortable: true
+    sortable: true,
+    width: "75px"
   },
   {
     name: "Early Comments",
     selector: "early_comments",
-    sortable: true
-  },
-  { name: "Chance to Win (in %)", selector: "chance", sortable: true }
+    sortable: true,
+    width: "110px"
+  }
 ];
 
 class Table extends Component {

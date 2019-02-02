@@ -5,6 +5,7 @@ import Countdown from "./Countdown";
 import FooterPage from "./FooterPage";
 import Rules from "./Rules";
 import "./App.css";
+import UserSearch from "./UserSearch";
 
 class App extends Component {
   render() {
@@ -16,6 +17,7 @@ class App extends Component {
         <Leaderboard />
         <Countdown />
         <Rules />
+        <UserSearch />
         <Prizes />
         <FooterPage />
       </div>

@@ -15,13 +15,6 @@ export default class Rules extends React.Component {
                     𝟱𝟬𝟬𝗽𝘁𝘀: Add Creator Code: 𝙁𝙊𝙍𝙁𝙊𝙍𝙏𝙎𝘼𝙆𝙀𝙎 (DM me a screenshot of my
                     code as your Support A Creator code)
                   </p>
-                  <br />
-                  <p>
-                    At the end of the contest, a winner will be randomly chosen from
-                    top 30 supporters. Users with more points will have a higher
-                    chance of winning. The percentage next to your username in the
-                    leaderboard is the chance you have at winning.
-                  </p>
                 </ul>
               </div>
             </div>
