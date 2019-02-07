@@ -18,6 +18,7 @@ export default class Prizes extends React.Component {
           The winner of the contest will be mailed a $20 giftcard on the console
           of their choice.
         </div>
+        <p>Last Winner: @whoops.alexs</p>
         <br />
       </div>
     );
