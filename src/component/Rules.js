@@ -9,12 +9,12 @@ export default class Rules extends React.Component {
           <ul>
             <p>𝟭𝟬𝟬𝗽𝘁𝘀: Like a post</p>
             <p>𝟮𝟬𝟬𝗽𝘁𝘀: Be one of the first 10 commenters on a post</p>
-            <p>𝟯𝟬𝟬𝗽𝘁𝘀: Tag a friend (the friend needs to be following you and)*</p>
+            <p>𝟯𝟬𝟬𝗽𝘁𝘀: Tag a friend*</p>
             <p>
               𝟱𝟬𝟬𝗽𝘁𝘀: Add Creator Code: 𝙁𝙊𝙍𝙁𝙊𝙍𝙏𝙎𝘼𝙆𝙀𝙎 (DM me a screenshot of my
               code as your Support A Creator code)
             </p>
-            <p>* you're Instagram account cannot be private</p>
+            <p>*the friend needs to be following you and your Instagram account cannot be private</p>
           </ul>
         </div>
       </div>
