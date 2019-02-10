@@ -13,8 +13,8 @@ class FooterPage extends React.Component {
             <Col>
               <ul>
                 <li className="list-unstyled">
-                  <p>Contact me with a DM:</p>
-                  <a href="http://instagram/forfortsakes">@forfortsakes</a>
+                  <p>Contact me with a DM</p>
+                  {/* <a href="http://instagram/forfortsakes">@forfortsakes</a> */}
                 </li>
               </ul>
             </Col>
