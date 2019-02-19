@@ -14,15 +14,15 @@ class FooterPage extends React.Component {
               <ul>
                 <li className="list-unstyled">
                   <p>Contact me with a DM</p>
-                  {/* <a href="http://instagram/forfortsakes">@forfortsakes</a> */}
+                  <a href="http://instagram/forfortsakes">@forfortsakes</a>
                 </li>
               </ul>
             </Col>
         </Container>
-        {/* <div>
+        <div>
           Developed with 🍕by{" "}
           <a href="https://github.com/evmarts"> evmarts </a>
-        </div> */}
+        </div>
       </Footer>
     );
   }
