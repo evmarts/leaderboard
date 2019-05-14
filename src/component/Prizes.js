@@ -11,7 +11,7 @@ export default class Prizes extends React.Component {
         <h3> 🎁 𝙂𝙞𝙫𝙚𝙖𝙬𝙖𝙮 𝙋𝙧𝙞𝙯𝙚𝙨</h3>
         <p>
           At the end of the contest, the user with the most points on the
-          leaderboard wins the giveaway.
+          leaderboard wins the giveaway...
         </p>
         <div>
           The winner of the contest will be mailed a $10 giftcard on the console
