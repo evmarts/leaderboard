@@ -6,7 +6,7 @@ const local = {
   }
 };
 
-const options =
+const options=
   process.env.NODE_ENV === "production"
     ? {
         client: "pg",
